@@ -20,7 +20,7 @@ O projeto base a ser usado pode ser encontrado no [Link](https://drive.google.co
 
 ## Criação do Arquivo gitlab-ci.yml
 
-Abra o projeto a ser usado no editor de texto, e crie um arquivo chamado `.gitlab-ci.yml`.
+Abra o projeto a ser usado no editor de texto, e crie um arquivo chamado `.gitlab-ci.yml`.  
 Este arquivo descreve quais são os passos que deverão ser feitos a partir do momento que o projeto é enviado ao gitlab.
 
 Exemplo de arquivo `.gitlab-ci.yml`:
@@ -63,5 +63,5 @@ Ao finalizar os passos o Runner cadastrado deve aparecer na página do gitlab pa
 
 ## Commit do Projeto
 
-Agora que já temos o arquivo `.gitlab-ci.yml` criado e o Gitlab Runner configurado podemos fazer o commit do repositório.
+Agora que já temos o arquivo `.gitlab-ci.yml` criado e o Gitlab Runner configurado podemos fazer o commit do repositório.  
 Assim que o commit for feito podemos ir a página do repositório e ir até o menu **CI/CD -> Pipelines** onde veremos nosso pipeline em execução, realizando as tarefass descritas no arquivo `.gitlab-ci.yml`
